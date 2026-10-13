@@ -1,0 +1,11 @@
+name: prepare-feasibility-summary
+description: Format a feasibility estimate, assumptions, and operational flags for human review.
+input_schema:
+  type: object
+  properties:
+    result:
+      type: object
+      description: Result from the recruitment feasibility calculation.
+  required:
+    - result
+  additionalProperties: false

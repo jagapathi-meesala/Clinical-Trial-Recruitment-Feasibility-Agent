@@ -1,0 +1,11 @@
+name: estimate-recruitment-feasibility
+description: Estimate recruitment capacity and target coverage from supplied aggregate assumptions.
+input_schema:
+  type: object
+  properties:
+    feasibility_input:
+      type: object
+      description: Validated aggregate feasibility inputs.
+  required:
+    - feasibility_input
+  additionalProperties: false

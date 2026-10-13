@@ -1,0 +1,23 @@
+spec_version: "0.1.0"
+name: clinical-trial-recruitment-feasibility-agent
+version: "1.0.0"
+description: Screens de-identified site and cohort data to estimate recruitment feasibility and identify operational constraints for human review.
+author: jagapathi-meesala
+license: MIT
+skills:
+  - criteria-screening
+  - site-feasibility
+  - recruitment-planning
+tools:
+  - validate-feasibility-input
+  - estimate-recruitment-feasibility
+  - prepare-feasibility-summary
+runtime:
+  max_turns: 5
+  temperature: 0.2
+  timeout: 30
+tags:
+  - clinical-trials
+  - recruitment
+  - feasibility
+  - research-operations

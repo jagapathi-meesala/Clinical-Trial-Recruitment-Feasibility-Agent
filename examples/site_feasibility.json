@@ -1,0 +1,8 @@
+{
+  "study_target": 240,
+  "estimated_eligible_cohort": 900,
+  "site_count": 8,
+  "monthly_recruitment_per_site": 3,
+  "activation_delay_months": 2,
+  "planning_horizon_months": 14
+}

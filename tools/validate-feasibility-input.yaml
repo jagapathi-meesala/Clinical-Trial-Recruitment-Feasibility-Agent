@@ -1,0 +1,11 @@
+name: validate-feasibility-input
+description: Validate aggregate, de-identified study recruitment feasibility inputs.
+input_schema:
+  type: object
+  properties:
+    feasibility_input:
+      type: object
+      description: Aggregate counts and planning assumptions only; no patient identifiers.
+  required:
+    - feasibility_input
+  additionalProperties: false
